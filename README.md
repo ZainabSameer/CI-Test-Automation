@@ -1,26 +1,37 @@
 # FastAPI CI Project
 
-This is a simple FastAPI application designed to demonstrate how to build and test API routes using `pytest`, with automated CI integration via GitHub Actions.
+## Description
 
-## Features
+FastAPI CI Project is a simple web application built with FastAPI. It provides basic API routes for health checks, greetings, and item creation. The app is designed to demonstrate automated testing using `pytest` and continuous integration with GitHub Actions.
 
-- **Three API routes**:
-  - `GET /health` – Basic health check
-  - `GET /hello/{name}` – Personalized greeting
-  - `POST /items` – Create a new item with name and price
+## Getting Started
 
-- **Nine automated tests** using `pytest`, covering all routes and edge cases
+Follow these steps to run the app locally:
 
-- **Continuous Integration** with GitHub Actions to automatically run tests on every push or pull request
+### 1. Clone the repository
 
-## Running the App Locally
+git clone (https://github.com/ZainabSameer/CI-Test-Automation.git)
+cd /CI-Test-Automation
 
-# Install dependencies
+### 2. Install dependencies
 pip install -r requirements.txt
 
-# Run the application
+### 3. Run the application
 uvicorn app.main:app --reload
 
-## Screenshot 
+### 4. Run the test suite
+pytest
 
+## Technologies Used
+- FastAPI – Web framework for building APIs
+- Pytest – Testing framework
+- GitHub Actions – CI/CD automation
+- HTTPX – Optional async HTTP client for testing
+- 
+## Attributions
+- FastAPI documentation and examples from https://fastapi.tiangolo.com
+- Pytest documentation from https://docs.pytest.org
+- GitHub Actions workflow templates inspired by official GitHub Doc
+
+## Screenshot 
 <img width="1907" height="830" alt="image" src="https://github.com/user-attachments/assets/718bf2b9-7a31-44f7-bb85-38eb8244a522" />
