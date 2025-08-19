@@ -15,11 +15,12 @@ This is a simple FastAPI application designed to demonstrate how to build and te
 
 ## Running the App Locally
 
-```bash
 # Install dependencies
 pip install -r requirements.txt
 
 # Run the application
 uvicorn app.main:app --reload
+
+## Screenshot 
 
 <img width="1907" height="830" alt="image" src="https://github.com/user-attachments/assets/718bf2b9-7a31-44f7-bb85-38eb8244a522" />
